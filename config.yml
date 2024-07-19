@@ -1,7 +1,7 @@
 baseURL: "https://andergisomon.github.io/"
 title: Ander's blog
 paginate: 5
-theme: PaperMod
+theme: github.com/adityatelange/hugo-PaperMod # It should be just PaperMod but GitHub Pages actions has trouble getting it from the submodule
 
 enableRobotsTXT: true
 buildDrafts: false
