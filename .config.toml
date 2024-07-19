@@ -1,0 +1,19 @@
+[params.homeInfoParams]
+Title = "Hi there wave"
+Content = "Can be Info, links, about..."
+
+[[params.socialIcons]]
+name = "Mastodon"
+url = "https://mastodon.social/@guang_gagu"
+
+[[params.socialIcons]]
+name = "YouTube"
+url = "https://www.youtube.com/@kogumilaan"
+
+[[params.profileMode.buttons]]
+name = "Posts"
+url = "/posts"
+
+[[params.profileMode.buttons]]
+name = "Archive"
+url = "/archives"
