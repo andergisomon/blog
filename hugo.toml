@@ -1,4 +1,12 @@
 baseURL = "https://andergisomon.github.io/"
 languageCode = "en-us"
 title = "Ander's blog"
-theme = "hello-friend-ng"
+theme = "typo"
+
+[params]
+homeIntroTitle = 'Kopisanangan'
+homeIntroContent = """
+I'm Ander. I'm a second year electrical and electronics engineering student at Universiti Teknologi PETRONAS.
+"""
+theme = 'light'
+
