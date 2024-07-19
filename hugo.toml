@@ -4,9 +4,17 @@ title = "Ander's blog"
 theme = "typo"
 
 [params]
-homeIntroTitle = 'Kopisanangan'
+body_classes = "georgia bg-near-white"
+homeIntroTitle = "Kopisanangan"
 homeIntroContent = """
 I'm Ander. I'm a second year electrical and electronics engineering student at Universiti Teknologi PETRONAS.
 """
 theme = 'light'
 
+[[params.menu]]
+name = "home"
+url = "/"
+
+[[params.menu]]
+name = "posts"
+url = "/posts"
