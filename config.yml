@@ -33,7 +33,7 @@ params:
   ShowBreadCrumbs: true
   ShowCodeCopyButtons: false
   ShowWordCount: false
-  ShowRssButtonInSectionTermList: true
+  ShowRssButtonInSectionTermList: false
   UseHugoToc: true
   disableSpecial1stPost: false
   disableScrollToTop: false
@@ -54,7 +54,7 @@ params:
 
   label:
     text: "Ander's Blog"
-    icon: /apple-touch-icon.png
+    icon: 
     iconHeight: 35
 
   # profile-mode
@@ -74,8 +74,8 @@ params:
 
   # home-info mode
   homeInfoParams:
-    Title: "Hi there \U0001F44B"
-    Content: Welcome to my blog
+    Title: "Welcome to my blog 😽"
+    Content: Records of the stuff I do
 
   socialIcons:
     - name: Mastodon
