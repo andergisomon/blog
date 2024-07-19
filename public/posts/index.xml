@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Posts on Ander&#39;s blog</title>
-    <link>https://andergisomon.github.io/posts/</link>
+    <link>http://localhost:1313/posts/</link>
     <description>Recent content in Posts on Ander&#39;s blog</description>
-    <generator>Hugo</generator>
+    <generator>Hugo -- 0.129.0</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 19 Jul 2024 23:34:12 +0800</lastBuildDate>
-    <atom:link href="https://andergisomon.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Kopisanangan_winorun</title>
-      <link>https://andergisomon.github.io/posts/kopisanangan_winorun/</link>
+      <title>Kopisanangan winorun</title>
+      <link>http://localhost:1313/posts/kopisanangan_winorun/</link>
       <pubDate>Fri, 19 Jul 2024 23:34:12 +0800</pubDate>
-      <guid>https://andergisomon.github.io/posts/kopisanangan_winorun/</guid>
+      <guid>http://localhost:1313/posts/kopisanangan_winorun/</guid>
       <description>Kopisanangan winorun is how we say &amp;ldquo;Hello world&amp;rdquo; in Kadazandusun.</description>
     </item>
   </channel>
