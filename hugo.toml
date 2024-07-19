@@ -1,4 +1,4 @@
-baseURL = 'https://ander.github.com/'
+baseURL = 'https://home/'
 languageCode = 'en-us'
 title = "Ander's blog"
 theme = 'typo'
