@@ -1,5 +1,4 @@
-baseURL = "https://ander.github.com/"
+baseURL = "https://andergisomon.github.io/"
 languageCode = "en-us"
 title = "Ander's blog"
 theme = "hello-friend-ng"
-publishDir = "docs"
