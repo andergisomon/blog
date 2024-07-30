@@ -2,29 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Posts on Ander&#39;s blog</title>
-    <link>https://andergisomon.github.io/posts/</link>
+    <link>http://localhost:1313/posts/</link>
     <description>Recent content in Posts on Ander&#39;s blog</description>
     <image>
       <title>Ander&#39;s blog</title>
-      <url>https://andergisomon.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>https://andergisomon.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- 0.129.0</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 20 Jul 2024 02:38:00 +0800</lastBuildDate>
-    <atom:link href="https://andergisomon.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 30 Jul 2024 13:44:00 +0800</lastBuildDate>
+    <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>EFB2074 Microprocessor &amp; Computer Architecture Project Report</title>
-      <link>https://andergisomon.github.io/posts/efb2073_microprocessor_and_computer_architecture/</link>
-      <pubDate>Sat, 20 Jul 2024 02:38:00 +0800</pubDate>
-      <guid>https://andergisomon.github.io/posts/efb2073_microprocessor_and_computer_architecture/</guid>
-      <description>Bosing suminunsui watang nokosulung kasip.</description>
+      <title>My projects</title>
+      <link>http://localhost:1313/posts/my_projects/</link>
+      <pubDate>Tue, 30 Jul 2024 13:44:00 +0800</pubDate>
+      <guid>http://localhost:1313/posts/my_projects/</guid>
+      <description>This post details some of my current projects. I wrote this after lunch after finishing my first exam paper.
+Major projects Pimato font project - Taarau Pimato is a constructed writing system I&amp;rsquo;ve been working on since the last 7 years. I&amp;rsquo;ve been planning to make a font 3 years ago but only got around doing it 2 months ago.
+Taarau is the name of the first font for Pimato, it comes from the word arau which means to rush.</description>
     </item>
     <item>
       <title>Kopisanangan winorun</title>
-      <link>https://andergisomon.github.io/posts/kopisanangan_winorun/</link>
+      <link>http://localhost:1313/posts/kopisanangan_winorun/</link>
       <pubDate>Fri, 19 Jul 2024 23:34:12 +0800</pubDate>
-      <guid>https://andergisomon.github.io/posts/kopisanangan_winorun/</guid>
+      <guid>http://localhost:1313/posts/kopisanangan_winorun/</guid>
       <description>Kopisanangan winorun is how we say &amp;ldquo;Hello world&amp;rdquo; in Kadazandusun.</description>
     </item>
   </channel>
