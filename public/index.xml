@@ -15,26 +15,10 @@
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>One of those cool course projects</title>
-      <link>http://localhost:1313/post/cool_course_projects/</link>
-      <pubDate>Mon, 05 Aug 2024 17:33:06 +0800</pubDate>
-      <guid>http://localhost:1313/post/cool_course_projects/</guid>
-      <description>I&amp;rsquo;m writing this after my last paper for my second semester of my second year. Recently, just a week ago on Friday we submitted our course project for EFB2073 - Microprocessor and Computer Architecture. It was a fun course although I&amp;rsquo;m not sure how well I did on the tests. Semester results would be out a month from now. Anyways it was one of those courses that really did push me to learn and discover more.</description>
-    </item>
-    <item>
-      <title>One of those cool course projects</title>
       <link>http://localhost:1313/posts/cool_course_projects/</link>
       <pubDate>Mon, 05 Aug 2024 17:33:06 +0800</pubDate>
       <guid>http://localhost:1313/posts/cool_course_projects/</guid>
       <description>I&amp;rsquo;m writing this after my last paper for my second semester of my second year. Recently, just a week ago on Friday we submitted our course project for EFB2073 - Microprocessor and Computer Architecture. It was a fun course although I&amp;rsquo;m not sure how well I did on the tests. Semester results would be out a month from now. Anyways it was one of those courses that really did push me to learn and discover more.</description>
-    </item>
-    <item>
-      <title>My projects</title>
-      <link>http://localhost:1313/post/my_projects/</link>
-      <pubDate>Tue, 30 Jul 2024 13:44:00 +0800</pubDate>
-      <guid>http://localhost:1313/post/my_projects/</guid>
-      <description>This post details some of my current projects. I wrote this after lunch after finishing my first exam paper.
-Major projects Pimato font project - Taarau Pimato is a constructed writing system I&amp;rsquo;ve been working on since the last 7 years. I&amp;rsquo;ve been planning to make a font 3 years ago but only got around doing it 2 months ago.
-Taarau is the name of the first font for Pimato, it comes from the word arau which means to rush.</description>
     </item>
     <item>
       <title>My projects</title>
@@ -44,27 +28,6 @@ Taarau is the name of the first font for Pimato, it comes from the word arau whi
       <description>This post details some of my current projects. I wrote this after lunch after finishing my first exam paper.
 Major projects Pimato font project - Taarau Pimato is a constructed writing system I&amp;rsquo;ve been working on since the last 7 years. I&amp;rsquo;ve been planning to make a font 3 years ago but only got around doing it 2 months ago.
 Taarau is the name of the first font for Pimato, it comes from the word arau which means to rush.</description>
-    </item>
-    <item>
-      <title>Kopisanangan winorun</title>
-      <link>http://localhost:1313/post/kopisanangan_winorun/</link>
-      <pubDate>Fri, 19 Jul 2024 23:34:12 +0800</pubDate>
-      <guid>http://localhost:1313/post/kopisanangan_winorun/</guid>
-      <description>Kopisanangan winorun is how we say &amp;ldquo;Hello world&amp;rdquo; in Kadazandusun.</description>
-    </item>
-    <item>
-      <title>Kopisanangan winorun</title>
-      <link>http://localhost:1313/posts/kopisanangan_winorun/</link>
-      <pubDate>Fri, 19 Jul 2024 23:34:12 +0800</pubDate>
-      <guid>http://localhost:1313/posts/kopisanangan_winorun/</guid>
-      <description>Kopisanangan winorun is how we say &amp;ldquo;Hello world&amp;rdquo; in Kadazandusun.</description>
-    </item>
-    <item>
-      <title>Search</title>
-      <link>http://localhost:1313/search/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/search/</guid>
-      <description>Search</description>
     </item>
   </channel>
 </rss>
