@@ -3,16 +3,28 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://localhost:1313/</loc>
+    <lastmod>2024-08-05T19:26:05+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/</loc>
+    <lastmod>2024-08-05T19:26:05+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/post/</loc>
+    <lastmod>2024-08-05T19:26:05+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/post/cool_course_projects/</loc>
     <lastmod>2024-08-05T17:33:06+08:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/cool_course_projects/</loc>
     <lastmod>2024-08-05T17:33:06+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/</loc>
-    <lastmod>2024-08-05T17:33:06+08:00</lastmod>
+    <loc>http://localhost:1313/post/my_projects/</loc>
+    <lastmod>2024-07-30T13:44:00+08:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/my_projects/</loc>
     <lastmod>2024-07-30T13:44:00+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/post/kopisanangan_winorun/</loc>
+    <lastmod>2024-07-19T23:34:12+08:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/kopisanangan_winorun/</loc>
     <lastmod>2024-07-19T23:34:12+08:00</lastmod>
