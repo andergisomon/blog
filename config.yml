@@ -2,7 +2,7 @@
 baseURL: "https://andergisomon.github.io/"
 title: Ander's blog
 paginate: 5
-theme: papermod
+theme: hugo-PaperMod
 
 enableRobotsTXT: true
 buildDrafts: false
