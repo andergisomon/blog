@@ -130,5 +130,10 @@ markup:
     # guessSyntax: true
     # lineNos: true
     # style: monokai
+    goldmark:
+      extensions:
+        footnote: true
+      renderer:
+        unsafe: true
 
 
