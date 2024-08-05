@@ -133,6 +133,9 @@ markup:
     goldmark:
       extensions:
         footnote: true
+    parser:
+      attribute:
+        block: true
       renderer:
         unsafe: true
 
