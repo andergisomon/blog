@@ -36,7 +36,7 @@ We worked on it until 7am from 9pm the previous day. Mclaren carried the team wi
 <figure>Zech explaining the team name</figure>
 </center>
 {{< /rawhtml >}}\
-This was the second time I pestered Zech to come up with a team name in Kayan. The first one was Robofun, but we pulled out of the competition early because it was hard to get the robot to work, and team morale was declining; so I don't regret pulling out. Anyways, back to the topic.
+This was the second time I pestered Zech to come up with a team name in Kayan. The first one was Robofun, where we named our team "Telo' Teloh" (three eggs) but we pulled out of the competition early because it was hard to get the robot to work, and team morale was declining; so I don't regret pulling out. Anyways, back to the topic.
 
 Zech then came up with the phrase "**Pat Nyem Ake'**" which means *Four Bachelors*, in both senses of the word. We were 4 unmarried guys, who are also bachelor students in electrical and electronics engineering. When I submitted the application, I added the initials "PNA", in case the DataWorks team find the full phrase hard to remember.
 
@@ -66,7 +66,7 @@ We haven't named our approach yet, because to me adding a penalty term warranted
 
 ## So, what's next?
 
-We received the prize. (I won't disclose what it was but it's not what you think from seeing the RM2000 placard! :upside_down_face:). We took some pictures. We stayed around until almost 5:00pm, at that point we skipped dinner because it was KL and Mclaren drove us there (though Eddry was already in KL for a debate competition the night before). Mclaren drove us from KLCC and through the E1 stretch of the *Lebuhraya Utara Selatan*. Zech then drove us from Gopeng into our dorms. We all held licenses but if I were given the wheel that night we would've ended up in a ditch probably :skull::skull::skull:.
+We received the prize. (I won't disclose what it was but it's not what you think from seeing the RM2000 placard! :upside_down_face:). We took some pictures. We stayed around until almost 5:00pm, at that point we skipped dinner because it was KL and Mclaren drove us there (though Eddry was already in KL for a debate competition the night before). Mclaren drove us back from KLCC and through the E1 stretch of the *Lebuhraya Utara Selatan*. Zech then drove us from Gopeng into our dorms. We all held licenses but if I were given the wheel that night we would've ended up in a ditch probably :skull::skull::skull:.
 
 It was quite an experience. Definitely one of the most unforgettable. The culminated time we worked on it was only about a month, but the journey felt quite a bit longer than that. I think winning was a bonus, but we never really set our sights on that. What we really only cared about was the fact that we worked on a problem together, and there is nothing else a human being can experience as satisfying as that.
 
