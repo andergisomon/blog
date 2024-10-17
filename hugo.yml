@@ -87,8 +87,6 @@ params:
     Content: Records of the stuff I do
 
   socialIcons:
-    - name: Mastodon
-      url: "https://mastodon.social/@guang_gagu"
     - name: YouTube
       url: "https://www.youtube.com/@kogumilaan"
     - name: GitHub
