@@ -3,25 +3,27 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://localhost:1313/</loc>
-    <lastmod>2024-08-05T17:33:06+08:00</lastmod>
+    <lastmod>2024-10-17T19:47:06+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/cool_course_projects/</loc>
-    <lastmod>2024-08-05T17:33:06+08:00</lastmod>
+    <loc>http://localhost:1313/posts/exxonmobil_dataworks/</loc>
+    <lastmod>2024-10-17T19:47:06+08:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/</loc>
-    <lastmod>2024-08-05T17:33:06+08:00</lastmod>
+    <lastmod>2024-10-17T19:47:06+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/cool_course_projects/</loc>
+    <lastmod>2024-08-05T18:14:27+08:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/my_projects/</loc>
-    <lastmod>2024-07-30T13:44:00+08:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/posts/kopisanangan_winorun/</loc>
-    <lastmod>2024-07-19T23:34:12+08:00</lastmod>
+    <lastmod>2024-10-17T19:47:06+08:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/archives/</loc>
+    <lastmod>2024-07-20T01:10:31+08:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/</loc>
   </url><url>
     <loc>http://localhost:1313/search/</loc>
+    <lastmod>2024-07-20T02:11:24+08:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/</loc>
   </url>

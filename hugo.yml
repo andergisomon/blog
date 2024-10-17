@@ -5,9 +5,18 @@ paginate: 5
 theme: ["PaperMod"]
 
 enableRobotsTXT: true
+enableEmoji: true
+enableGitInfo: true
 buildDrafts: false
 buildFuture: false
 buildExpired: false
+
+frontmatter:
+    lastmod:
+    - lastmod
+    - :git
+    - date
+    - publishDate
 
 googleAnalytics: UA-123-45
 
