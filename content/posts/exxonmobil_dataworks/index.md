@@ -4,13 +4,13 @@ date = 2024-10-17T19:47:06+08:00
 draft = false
 +++
 
-{{< rawhtml >}}
 <center>
-<img src="images/corner_mirror_cropped_flipped.jpg" width="600">
-<figcaption>That's me in <i>gaung Kadazan</i> at the back in the middle :)</figcaption>
-<figcaption>The Pat Nyem Ake' - Left: <b>Eddry</b>; Middle, front: <b>Zech</b>; Right: <b>Mclaren</b></figcaption>
+  <img src="images/corner_mirror_cropped_flipped.jpg" width="600">
+  <figcaption>That's me in <i>gaung Kadazan</i> at the back in the middle :)</figcaption>
+  <figcaption>The Pat Nyem Ake' - Left: <b>Eddry</b>; Middle, front: <b>Zech</b>; Right: <b>Mclaren</b></figcaption>
+  <br>
 </center>
-{{< /rawhtml >}}\
+
 It's been a while since I updated my site. A lot has happened since then. I'm now in the first semester of my third year at UTP. This will be my last semester on campus before embarking on an internship, away from campus, and away from home. It's honestly been such a journey so far, and in this post I'm gonna share a part of that journey. One of the best memories I had made.
 
 It all started almost a month ago, when an email appeared in my inbox. It was broadcast to students from various programs, calling for teams to participate in a competition I haven't heard of at the time. The ExxonMobil DataWorks Challenge. It was first held 2 years ago in 2022, and this year was the second ever.
@@ -31,11 +31,11 @@ We worked on it until 7am from 9pm the previous day. Mclaren carried the team wi
 
 {{<youtube "2cNefW95JQI" >}}
 
-{{< rawhtml >}}
 <center>
+<br>
 <figure>Zech explaining the team name</figure>
 </center>
-{{< /rawhtml >}}\
+
 This was the second time I pestered Zech to come up with a team name in Kayan. The first one was Robofun, where we named our team "Telo' Teloh" (three eggs) but we pulled out of the competition early because it was hard to get the robot to work, and team morale was declining; so I don't regret pulling out. Anyways, back to the topic.
 
 Zech then came up with the phrase "**Pat Nyem Ake'**" which means *Four Bachelors*, in both senses of the word. We were 4 unmarried guys, who are also bachelor students in electrical and electronics engineering. When I submitted the application, I added the initials "PNA", in case the DataWorks team find the full phrase hard to remember.
@@ -70,30 +70,30 @@ We received the prize. (I won't disclose what it was but it's not what you think
 
 It was quite an experience. Definitely one of the most unforgettable. The culminated time we worked on it was only about a month, but the journey felt quite a bit longer than that. I think winning was a bonus, but we never really set our sights on that. What we really only cared about was the fact that we worked on a problem together, and there is nothing else a human being can experience as satisfying as that.
 
-{{< rawhtml >}}
 <center>
 <img src="images/ground_floor_cropped.jpg" width="600">
 <figcaption>One last picture before going back to UTP.</figcaption>
+<br>
 </center>
-{{< /rawhtml >}}
 
 {{<youtube "tqghlRns1jA" >}}
-{{< rawhtml >}}
+
 <center>
+<br>
 <figure>A brief snippet of my part (we only had 10 minutes total).</figure>
 </center>
-{{< /rawhtml >}}
 
 {{<youtube "VZpbTmZs_z4" >}}
-{{< rawhtml >}}
+
 <center>
+<br>
 <figure>A brief snippet of Mclaren's part.</figure>
 </center>
-{{< /rawhtml >}}
 
 {{<youtube "kHP8wfBqwyc" >}}
-{{< rawhtml >}}
+
 <center>
+<br>
 <figure>A brief snippet of Eddry's part.</figure>
 </center>
-{{< /rawhtml >}}
+
