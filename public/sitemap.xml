@@ -2,29 +2,29 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/</loc>
-    <lastmod>2024-10-17T23:29:09+08:00</lastmod>
+    <loc>https://andergisomon.github.io/</loc>
+    <lastmod>2025-04-15T16:13:02+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/exxonmobil_dataworks/</loc>
-    <lastmod>2024-10-17T23:29:09+08:00</lastmod>
+    <loc>https://andergisomon.github.io/posts/exxonmobil_dataworks/</loc>
+    <lastmod>2025-04-15T16:13:02+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/</loc>
-    <lastmod>2024-10-17T23:29:09+08:00</lastmod>
+    <loc>https://andergisomon.github.io/posts/</loc>
+    <lastmod>2025-04-15T16:13:02+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/cool_course_projects/</loc>
+    <loc>https://andergisomon.github.io/posts/cool_course_projects/</loc>
     <lastmod>2024-08-05T18:14:27+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/my_projects/</loc>
+    <loc>https://andergisomon.github.io/posts/my_projects/</loc>
     <lastmod>2024-10-17T19:47:06+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/archives/</loc>
+    <loc>https://andergisomon.github.io/archives/</loc>
     <lastmod>2024-07-20T01:10:31+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/</loc>
+    <loc>https://andergisomon.github.io/categories/</loc>
   </url><url>
-    <loc>http://localhost:1313/search/</loc>
+    <loc>https://andergisomon.github.io/search/</loc>
     <lastmod>2024-07-20T02:11:24+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/</loc>
+    <loc>https://andergisomon.github.io/tags/</loc>
   </url>
 </urlset>
