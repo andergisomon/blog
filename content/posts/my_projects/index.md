@@ -15,6 +15,7 @@ Pimato is a constructed writing system I've been working on since the last 7 yea
 Taarau is the name of the first font for Pimato, it comes from the word *arau* which means to rush. I've been intending to rush the development of the font as I believed as long as it looks close enough to my vision, it doesn't matter. But as the weeks ago by I can't help but scrutinize its tiny details. Professional fonts typically take 2 years to develop, I'm hoping that this font won't be a professional one because I need to start making materials with it.
 
 > **Update** (17 Oct 2024): This project is crawling, but alive.
+
 > **Update 2** (27 April 2025): This project will be done timely, but some orthographical compromises were made.
 
 Expect the font to more or less have a complete set of glyphs for Bunduliwan Q3/Q4 of 2025. I should make the font repo public by that point.
