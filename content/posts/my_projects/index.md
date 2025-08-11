@@ -9,7 +9,7 @@ This post details some of my current ongoing projects.
 
 ## Major projects
 
-### Pimato font project - Taarau
+### <span style="color: green;">[Active]</span> Pimato font project - Taarau
 Pimato is a constructed writing system I've been working on since the last 7 years. I've been planning to make a font 3 years ago but only got around doing it 2 months ago.
 
 Taarau is the name of the first font for Pimato, it comes from the word *arau* which means to rush. I've been intending to rush the development of the font as I believed as long as it looks close enough to my vision, it doesn't matter. But as the weeks ago by I can't help but scrutinize its tiny details. Professional fonts typically take 2 years to develop, I'm hoping that this font won't be a professional one because I need to start making materials with it.
@@ -18,11 +18,55 @@ Taarau is the name of the first font for Pimato, it comes from the word *arau* w
 
 > **Update 2** (27 April 2025): This project will be done timely, but some orthographical compromises were made.
 
-Expect the font to more or less have a complete set of glyphs for Bunduliwan Q3/Q4 of 2025. I should make the font repo public by that point.
+> **Update 3** (11 August 2025): The repo has been up since May 11, 2025.
 
-### Kayan TTS/ASR transfer learning from related Apo-Duat language model
+
+### <span style="color: red;">[Abandoned]</span> Kayan TTS/ASR transfer learning from related Apo-Duat language model
 I've been wanting to finetune a pretrained Apo-Duat language model from Meta's MMS suite of [ASR/TTS models](https://github.com/facebookresearch/fairseq/tree/main/examples/mms "Title") for a year now but have never found the time to do it. This semester break I intend on actually working on it. More specifically, I want to see if it's possible to reduce the compute requirements by repurposing the Penan (pez) or Lundayeh (lnd) weights.
 
 > **Update** (17 Oct 2024): This project is abandoned. I can't find the time to create the dataset, and it would require community engagement to turn this into an actual project instead of a side passion project for a hobby.
 
-*Last updated 27 April 2025*
+## Planned Projects
+This section lists projects that have some level of planning, but not enough material work has been put into realizing them yet.
+
+### Soft PLC Platform - Taob
+This is meant to be a rewrite and spiritual continuation of [Gipop](https://github.com/andergisomon/gipop), a hastily made proof-of-concept soft PLC following the example of the control platform developed by [QiTech GmbH](https://github.com/qitechgmbh/control), generously made open source by Philipp Schmechel.
+
+CODESYS and OpenPLC are the only available soft PLC platforms out there. The former has gained significant foothold in industry, but the latter has been in slow development for quite some time now. OpenPLC currently depends on an unmaintained IEC 61131-3 transpiler backend, MATIEC. There is a new promising IEC 61131-3 Structured Text backend, [RuSTy](https://github.com/PLC-lang/rusty), currently being worked on by a duo, [Ghaith Hachem](https://github.com/ghaith) and [Mathias Rieder](https://github.com/riederm) from Bachmann Electronic.
+
+I plan to write parts of the runtime in Zig and Rust for the following reasons:
+
+1. RuSTy exposes a (planned) Rust API, so using Rust is a no-brainer.
+2. Rust and Zig are cool languages.
+
+There are other practical reasons for adding Zig into the mix. I like the verbosity and explicitness that the language enforces. For other parts I can see how Rust's abstractions and rich type system can be convenient. It's ok to like more than one thing, everyone.
+
+As for why even bother working on this, I have a few reasons:
+
+1. I hate how PLCs are locked down; I generally dislike being constrained to use ugly and closed software.
+2. I'm not running/working for an integrator.
+
+**Actionable goals:**
+(In decreasing order of importance)
+* Online code changes (Hot reload)
+* Online variable read/writes (Debugger + Variable Table UI)
+* Protocol-agnostic data layer
+
+### Zig Firmware Rewrite for the Cytron IRIV IO
+The default firmware from Cytron relies on MicroPython. Will be interesting to see if there's gonna be any performance improvements with rewriting the whole stack in Zig + C.
+
+### Mixing Zig and Rust in Embedded
+This came to mind after discovering the [embedded-graphics](https://github.com/embedded-graphics/embedded-graphics) crate, which to my surprise was started and maintained by the same guy behind [EtherCrab](https://github.com/ethercrab-rs/ethercrab), James Waples.
+
+I've got some idea on how to make it work: The binary that will be flashed will be built with Zig (using [MicroZig](https://github.com/ZigEmbeddedGroup/microzig)), so the `app_main()` loop would be within the Zig program. Presumably I won't bother with the Espressif Second Stage Bootloader and Partition Table, given that by default MicroZig will just install out the direct boot image which can be flashed directly with `esptool.py`.
+
+I'll make a dummy Rust driver for the SH1106 that wraps the MicroZig SH1106 driver. This dummy driver will implement the [`DrawTarget`](https://docs.rs/embedded-graphics-core/latest/embedded_graphics_core/draw_target/trait.DrawTarget.html) trait. We'll instantiate a [`Framebuffer`](https://docs.rs/embedded-graphics/latest/embedded_graphics/framebuffer/struct.Framebuffer.html) that the rest of the `embedded-graphics` API will talk to. The Rust program will then export a function that will be called from Zig's `app_main()`.
+
+The dummy driver should probably just be a small module that wraps C data structures (for interop with Zig). After all, `DrawTarget` is only a few methods. The exported Rust function will just mutate a Framebuffer that the actual Zig driver will send to the display.
+
+**Hardware needed:**
+* esp32c3 devboard
+* SH1106 OLED
+
+
+*Last updated 11 August 2025*
