@@ -1,5 +1,5 @@
 +++
-title = 'How I built a PLC for my internship project'
+title = 'How I built a PLC for my internship project: or how it made me love open source even more'
 date = 2025-08-06T09:14:52+08:00
 draft = false
 +++
@@ -16,7 +16,7 @@ At the time I was sure I've seen the term before somewhere, but I never really u
 
 I took it as gospel at the time and had no qualms with that answer. But pedantic me today (and I'm sure many others in industrial automation) would take issue with the word 'Arduino' even sharing the same sentence with the term 'PLC'.
 
-### What even is a PLC?
+## What even is a PLC?
 
 A PLC stands for <ins>P</ins>rogrammable <ins>L</ins>ogic <ins>C</ins>ontroller. Now any machine, even non-Turing-complete ones can fit that definition, because a PLC describes function, and its name alone does not prescribe an exact physical manifestation.
 
@@ -28,7 +28,7 @@ What this essentially means is, a PLC is practically any sort of device, softwar
 
 Unfortunately going by the definition above, yes. But nobody in their right mind will put one in a control cabinet and expect it to run a production line. So here's a revised definition, with more restrictions:
 
-#### A PLC is anything that satisfies the following:
+### A PLC is anything that satisfies the following:
 
 1. Software or hardware that is programmable.
 2. Software or hardware that controls logic.
@@ -38,7 +38,7 @@ Unfortunately going by the definition above, yes. But nobody in their right mind
 6. Is hardened or may live in a hardened physical vessel to withstand abuse from vibration, EMI, heat, humidity, etc.
 
 
-### Why I picked this project
+## Why I picked this project
 
 Because of this forum rule I found somewhere:
 
@@ -54,7 +54,7 @@ Seriously, stop imitating Apple. Stop it with these ridiculous walled garden eco
 
 So part of the reason why I embarked on this toy project is to run away from these vendors. I understand that it amounts to essentially reinventing the wheel, but it's far from a pointless endeavor.
 
-### Architecture
+## Architecture
 
 <center>
   <img src="images/wayawaal.png" width="700">
@@ -82,14 +82,26 @@ if sms.len() as u8 != num_indices {
 }
 {{< /highlight >}}
 
-James' [classy way](https://github.com/ethercrab-rs/ethercrab/commit/33f53d4f6f188647cea2390e8f69bd9f7bce743c) was to use `zip()` on two iterable types that were already in scope. It returns the shorter of the two, so we don't need to pop anything.
+I refused the offer on the grounds that I don't want to pollute a codebase I'm unfamiliar with. James' [classy way](https://github.com/ethercrab-rs/ethercrab/commit/33f53d4f6f188647cea2390e8f69bd9f7bce743c) was to use `zip()` on two iterable types that were already in scope. It returns the shorter of the two, so we don't need to pop anything.
 
-### Wiring it together
+## Mobile app
+
+
+
+I made a simple Flutter app that just talks to the Supabase instance I had on Free tier. None of that Arduino Cloud crap. I can add as many tables as I want with as many columns and rows as I want. I humbly say that the UI is pretty clean.
+
+## Wiring it together
 
 <center>
   <img src="images/woyooput.png" width="700">
 </center>
 
+Fortunately it was all smooth sailing. The biggest hurdle was ensuring I didn't mess up any of the wiring to mains to feed the PULS power supply. All thanks to my trusty DMM. But honestly scanning through all the datasheets was tedious.
 
+The only initial issue I had was setting up passwordless SSH. Turns out the identity file was stored somewhere unexpected. That, end dealing with a +1 Modbus address offset in ModbusTools. Strangely, using `tokio-modbus` was easier than figuring out how to use the ModbusTools client.
 
+The main fieldbus is EtherCAT, a real-time, Ethernet-based fieldbus protocol. It has to live on its own network. Though surprisingly, I did try it out on a regular unmanaged switch once with IP traffic buzzing through. It would occasionally timeout but still surprised that it worked. Anyways, don't do that on a non-TSN switch.
 
+I also bought a Cytron IRIV IO. Inside is an RP2350A and a W5500, so it can be programmed as a remote Modbus/TCP IO extender. I borrowed the EtherCAT and EnOcean hardware from my supervisor. The EtherCAT network consisted of two couplers: an EK1100 and a BK1120, each with their own terminal cards.
+
+I needed the BK1120 to interface with the KL6581 and KL6583, both needed to interface with the PTM200 EnOcean transmitter. EnOcean devices are pretty wild. The PTM200 is completely batteryless, telegrams are transmitted wirelessly using the energy from the button press. Decent range through walls too.
