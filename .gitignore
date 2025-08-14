@@ -1,3 +1,5 @@
 # Ignore the public folder hugo server generates
 public/
 public
+
+content/posts/Internship_Reflections/SIIP_Experience/not_index.md
