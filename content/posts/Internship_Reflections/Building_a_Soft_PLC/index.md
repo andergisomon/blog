@@ -18,7 +18,7 @@ I took it as gospel at the time and had no qualms with that answer. But pedantic
 
 ### What even is a PLC?
 
-A PLC stands for Programmable Logic Controller. Now any machine, even non-Turing-complete ones can fit that definition, because a PLC describes function, and its name alone does not prescribe an exact physical manifestation.
+A PLC stands for <ins>P</ins>rogrammable <ins>L</ins>ogic <ins>C</ins>ontroller. Now any machine, even non-Turing-complete ones can fit that definition, because a PLC describes function, and its name alone does not prescribe an exact physical manifestation.
 
 But in real life, it's a bit more complicated than that. The IEC 61131 standard is possibly the best reference documentation that standardizes PLCs. But again, there are no certifying bodies (yet) out there that control the use of the word 'PLC'.
 
@@ -28,14 +28,14 @@ What this essentially means is, a PLC is practically any sort of device, softwar
 
 Unfortunately going by the definition above, yes. But nobody in their right mind will put one in a control cabinet and expect it to run a production line. So here's a revised definition, with more restrictions:
 
-A PLC is anything that satisfies the following:
+#### A PLC is anything that satisfies the following:
 
 1. Software or hardware that is programmable.
 2. Software or hardware that controls logic.
 3. Software or hardware that is bound to events involving physical effects.
 4. Can be inspected online (live editing of variable values).
 5. Can be reprogrammed while hot (online changes of code without stopping execution).
-6. Is hardened or may live on a hardened physical vessel to withstand abuse from vibration, EMI, heat, humidity, etc.
+6. Is hardened or may live in a hardened physical vessel to withstand abuse from vibration, EMI, heat, humidity, etc.
 
 
 ### Why I picked this project
@@ -56,5 +56,11 @@ So part of the reason why I embarked on this toy project is to run away from the
 
 ### Architecture
 
+<center>
+  <img src="images/wayawaal.png" width="700">
+</center>
 
+Everything is a user-space process on Linux with the PREEMPT_RT patches applied. Real-time processes are run with appropriate thread prios on `SCHED_FIFO`. The Pi 5 is just a stand-in for a ruggedized IPC. It was the cheapest device I could get my hands on that runs Linux easily.
+
+Since the PLC and other glueware are all software, it can live in an industrial PC, satisfying requirement [**6.**](#a-plc-is-anything-that-satisfies-the-following). I didn't satisfy **4.** and **5.** due to time constraints, but that's something I'll be fixing [soon!]({{< ref "posts/my_projects/index.md#planned-projects" >}})
 
