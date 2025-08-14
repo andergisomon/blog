@@ -64,3 +64,32 @@ Everything is a user-space process on Linux with the PREEMPT_RT patches applied.
 
 Since the PLC and other glueware are all software, it can live in an industrial PC, satisfying requirement [**6.**](#a-plc-is-anything-that-satisfies-the-following). I didn't satisfy **4.** and **5.** due to time constraints, but that's something I'll be fixing [soon!]({{< ref "posts/my_projects/index.md#planned-projects" >}})
 
+The figure above is motivated by my desire to explore as many technologies I could. There's nothing that prevents me from implementing the Telegram bot in Go or Java, but I really wanted to learn Zig, so I decided to write that part in it.
+
+### Slight tangent
+
+That decision led into a rabbit hole with CMake, and I ended up learning lots! The folks at iceoryx2 were friendly enough to let me write short docs for other users to cross-compile iceoryx2 to ARM. It was my first ever 'real' contribution to open source. Nothing substantial, but it was nonetheless my [first merged PR](https://github.com/eclipse-iceoryx/iceoryx2/pull/873).
+
+Though, James, the man behind embedded-graphics and EtherCrab did offer me a baby's first steps PR to fix this [cryptic bug](https://github.com/ethercrab-rs/ethercrab/issues/307) that originated from EtherCAT firmware shenanigans (it was undocumented SyncManager types on a BK1120 coupler, from Beckhoff themselves!). My noob ahh did something like this:
+
+{{< highlight rust "linenos=table" >}}
+if sms.len() as u8 != num_indices {
+    let mut i = sms.len() as u8;
+    while i > num_indices {
+        sms.pop();
+        i -= 1;
+    }
+}
+{{< /highlight >}}
+
+James' [classy way](https://github.com/ethercrab-rs/ethercrab/commit/33f53d4f6f188647cea2390e8f69bd9f7bce743c) was to use `zip()` on two iterable types that were already in scope. It returns the shorter of the two, so we don't need to pop anything.
+
+### Wiring it together
+
+<center>
+  <img src="images/woyooput.png" width="700">
+</center>
+
+
+
+
