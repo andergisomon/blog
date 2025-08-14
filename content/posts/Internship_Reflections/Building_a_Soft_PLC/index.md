@@ -1,7 +1,60 @@
 +++
-title = 'Building my own PLC'
+title = 'How I built a PLC for my internship project'
 date = 2025-08-06T09:14:52+08:00
-draft = true
+draft = false
 +++
 
-Kopisanangan winorun is how we say "Hello world" in Kadazandusun.
+<center>
+  <img src="images/rumun.png" width="700">
+  <figcaption>Electronic rat nest. The PLC itself is just a real-time app running on Linux PREEMPT_RT on the Raspberry Pi 5.</figcaption>
+  <br>
+</center>
+
+I remember vividly the moment the term 'PLC' was first used in a relevant context I was participating. It was during an Instrumentation & Controls lecture at UTP. My lecturer threw out the term 'PLC' to the class, expecting us to at least know what it meant.
+
+At the time I was sure I've seen the term before somewhere, but I never really understood what it meant at the time. Even today, the term has a pretty nebulous definition, but I digress for the time being. Somebody then asked him what a 'PLC' is (mind you, we were all third-year electrical engineering students at that point) and he took a substantial pause before defeatedly answering that it's basically an Arduino.
+
+I took it as gospel at the time and had no qualms with that answer. But pedantic me today (and I'm sure many others in industrial automation) would take issue with the word 'Arduino' even sharing the same sentence with the term 'PLC'.
+
+### What even is a PLC?
+
+A PLC stands for Programmable Logic Controller. Now any machine, even non-Turing-complete ones can fit that definition, because a PLC describes function, and its name alone does not prescribe an exact physical manifestation.
+
+But in real life, it's a bit more complicated than that. The IEC 61131 standard is possibly the best reference documentation that standardizes PLCs. But again, there are no certifying bodies (yet) out there that control the use of the word 'PLC'.
+
+What this essentially means is, a PLC is practically any sort of device, software or hardware that is _programmable_ in the way it _controls_ _logic_. While not in the name, a PLC has to at least control something that has an immediate physical effect, or is doing something that depends on anything undergoing physical effects (e.g., reading a sensor).
+
+> So is a naked Arduino board a PLC?
+
+Unfortunately going by the definition above, yes. But nobody in their right mind will put one in a control cabinet and expect it to run a production line. So here's a revised definition, with more restrictions:
+
+A PLC is anything that satisfies the following:
+
+1. Software or hardware that is programmable.
+2. Software or hardware that controls logic.
+3. Software or hardware that is bound to events involving physical effects.
+4. Can be inspected online (live editing of variable values).
+5. Can be reprogrammed while hot (online changes of code without stopping execution).
+6. Is hardened or may live on a hardened physical vessel to withstand abuse from vibration, EMI, heat, humidity, etc.
+
+
+### Why I picked this project
+
+Because of this forum rule I found somewhere:
+
+> No watercooler complaints: you’re allowed to
+> complain about something in direct proportion to
+> how much work you’re doing to improve said thing.
+
+Throughout the internship I was exposed to three PLC vendors: Siemens, Rockwell, and Beckhoff. I dislike all of their products, price tag, licensing schemes, and the closed-source nature of their products. All of their IDEs require Windows to run (no I refuse to acknowledge Simatic AX and PLC++, at least for now).
+
+Among all of them Beckhoff was the most tolerable. They invented EtherCAT, my favorite real-time fieldbus protocol. TwinCAT is fine. ADS is ok, I guess. But I really don't like being bogged down by substandard corporate decisions. I should not be forced to use Windows, and going closed-source when you're a company that large is purely a bad cultural **and** business decision.
+
+Seriously, stop imitating Apple. Stop it with these ridiculous walled garden ecosystems.
+
+So part of the reason why I embarked on this toy project is to run away from these vendors. I understand that it amounts to essentially reinventing the wheel, but it's far from a pointless endeavor.
+
+### Architecture
+
+
+

@@ -1,7 +1,7 @@
 +++
 title = 'What I learned from a 7-month internship'
 date = 2025-08-06T09:14:52+08:00
-draft = false
+draft = true
 +++
 
 

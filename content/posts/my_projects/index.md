@@ -12,13 +12,13 @@ This post details some of my current ongoing projects.
 ### <span style="color: green;">[Active]</span> Pimato font project - Taarau
 Pimato is a constructed writing system I've been working on since the last 7 years. I've been planning to make a font 3 years ago but only got around doing it 2 months ago.
 
-Taarau is the name of the first font for Pimato, it comes from the word *arau* which means to rush. I've been intending to rush the development of the font as I believed as long as it looks close enough to my vision, it doesn't matter. But as the weeks ago by I can't help but scrutinize its tiny details. Professional fonts typically take 2 years to develop, I'm hoping that this font won't be a professional one because I need to start making materials with it.
+[Taarau](https://github.com/andergisomon/taarau) is the name of the first font for Pimato, it comes from the word *arau* which means to rush. I've been intending to rush the development of the font as I believed as long as it looks close enough to my vision, it doesn't matter. But as the weeks ago by I can't help but scrutinize its tiny details. Professional fonts typically take 2 years to develop, I'm hoping that this font won't be a professional one because I need to start making materials with it.
 
 > **Update** (17 Oct 2024): This project is crawling, but alive.
 
 > **Update 2** (27 April 2025): This project will be done timely, but some orthographical compromises were made.
 
-> **Update 3** (11 August 2025): The repo has been up since May 11, 2025.
+> **Update 3** (11 August 2025): The [repo](https://github.com/andergisomon/taarau) has been up since May 11, 2025.
 
 
 ### <span style="color: red;">[Abandoned]</span> Kayan TTS/ASR transfer learning from related Apo-Duat language model
@@ -58,6 +58,10 @@ As for why even bother working on this, I have a few reasons:
 As to why I put ST support last, well it's because RuSTy is still too early in its development. They're still working on implementing core specifications from the IEC standard (and CODESYS extensions). Plus, I personally have no problems with programming a PLC in C, Rust or even Zig only given that goals **1.** and **2.** are met.
 
 The first two goals are crucial features in industrial automation.
+
+**Notes to self:**
+
+Maybe fork [gdbgui](https://www.gdbgui.com/)? It claims Rust support. `gdbui` uses [pygdbmi](https://cs01.github.io/pygdbmi/) to interface with `gdb`. Maybe just use that and roll our web UI from scratch?
 
 ### Zig Firmware Rewrite for the Cytron IRIV IO
 The default firmware from Cytron relies on MicroPython. Will be interesting to see if there's gonna be any performance improvements with rewriting the whole stack in Zig + C.
