@@ -10,7 +10,7 @@ This post details some of my current ongoing projects.
 ## Major projects
 
 ### <span style="color: green;">[Active]</span> Pimato font project - Taarau
-Pimato is a constructed writing system I've been working on since the last 7 years. I've been planning to make a font 3 years ago but only got around doing it 2 months ago.
+Pimato is a constructed writing system I worked on for 7 years. I've been planning to make a font 3 years ago but only got around doing it 2 months ago.
 
 [Taarau](https://github.com/andergisomon/taarau) is the name of the first font for Pimato, it comes from the word *arau* which means to rush. I've been intending to rush the development of the font as I believed as long as it looks close enough to my vision, it doesn't matter. But as the weeks ago by I can't help but scrutinize its tiny details. Professional fonts typically take 2 years to develop, I'm hoping that this font won't be a professional one because I need to start making materials with it.
 
