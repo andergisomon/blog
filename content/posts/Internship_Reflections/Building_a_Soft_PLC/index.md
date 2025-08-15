@@ -86,9 +86,38 @@ I refused the offer on the grounds that I don't want to pollute a codebase I'm u
 
 ## Mobile app
 
+<table style="display:block; margin:auto; max-width: fit-content;">
+  <tr>
+    <td>
+      <img src="images/admiral_warn.jpg" height="500">
+    </td>
+    <td>
+      <img src="images/admiral.jpg" height="500">
+    </td>
+    <td>
+      <img src="images/graph_view.jpg" height="500">
+    </td>
+  </tr>
+</table>
+<!-- Insert all the mantadsodu pics here -->
 
+I made a simple Flutter app that just talks to the Supabase instance I had on Free tier. None of that 2-variables-on-free-plan Arduino Cloud crap. I could add as many tables as I want with as many columns and rows my heart desired. I humbly say that the UI turned out looking pretty nice.
 
-I made a simple Flutter app that just talks to the Supabase instance I had on Free tier. None of that Arduino Cloud crap. I can add as many tables as I want with as many columns and rows as I want. I humbly say that the UI is pretty clean.
+## Telegram bot
+
+<table style="display:block; margin:auto; max-width: fit-content;">
+  <tr>
+    <td >
+      <img src="images/tg_notifs.jpg" height="500">
+    </td>
+    <td>
+      <img src="images/tgbot.jpg" height="500">
+    </td>
+  </tr>
+</table>
+<!-- Insert the telegram bot pics here -->
+
+The Telegram bot just subscribes to a publisher inside the PLC control loop process via IPC (using iceoryx2). I used [zigtgshka](https://github.com/Nyarum/zigtgshka) to interface with the Telegram bot API and the iceoryx2 C FFI. Repo available [here](https://github.com/andergisomon/mantadsodu). Since Zig has no syntactic async, I just assigned a separate thread for the IPC worker and the Telegram bot.
 
 ## Wiring it together
 
@@ -105,3 +134,7 @@ The main fieldbus is EtherCAT, a real-time, Ethernet-based fieldbus protocol. It
 I also bought a Cytron IRIV IO. Inside is an RP2350A and a W5500, so it can be programmed as a remote Modbus/TCP IO extender. I borrowed the EtherCAT and EnOcean hardware from my supervisor. The EtherCAT network consisted of two couplers: an EK1100 and a BK1120, each with their own terminal cards.
 
 I needed the BK1120 to interface with the KL6581 and KL6583, both needed to interface with the PTM200 EnOcean transmitter. EnOcean devices are pretty wild. The PTM200 is completely batteryless, telegrams are transmitted wirelessly using the energy from the button press. Decent range through walls too.
+
+## Full report
+
+If you want to read the full 76-page report, [here you go.](report.pdf) You can skip the boring details straight to the appendices for more details.
