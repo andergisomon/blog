@@ -84,7 +84,7 @@ if sms.len() as u8 != num_indices {
 }
 {{< /highlight >}}
 
-I refused the offer on the grounds that I didn't want to pollute a codebase I'm unfamiliar with. James' [classy way](https://github.com/ethercrab-rs/ethercrab/commit/33f53d4f6f188647cea2390e8f69bd9f7bce743c) was to use `zip()` on two iterable types that were already in scope. It returns the shorter of the two, so we don't need to pop anything.
+I refused the offer on the grounds that I didn't want to pollute a codebase I'm unfamiliar with. James [concisely](https://github.com/ethercrab-rs/ethercrab/commit/33f53d4f6f188647cea2390e8f69bd9f7bce743c) used `zip()` on two iterable types that were already in scope. It returns the shorter of the two, so we don't need to pop anything.
 
 ## Mobile app
 
