@@ -66,7 +66,7 @@ Maybe fork [gdbgui](https://www.gdbgui.com/)? It claims Rust support. `gdbui` us
 ### Zig Firmware Rewrite for the Cytron IRIV IO
 The default firmware from Cytron relies on MicroPython. Will be interesting to see if there's gonna be any performance improvements with rewriting the whole stack in Zig + C.
 
-I also want to see how far I can get with hacking OPC UA PubSub to do firm real-time, with careful programming of the PLC and the RP2040 inside the IRIV IO, treating it like EtherCAT with its own reserved NIC on the PLC.
+I also want to see how far I can get with hacking OPC UA PubSub to do firm real-time, with careful programming of the PLC and the RP2350A inside the IRIV IO, treating it like EtherCAT with its own reserved NIC on the PLC.
 
 ### Mixing Zig and Rust in Embedded
 This came to mind after discovering the [embedded-graphics](https://github.com/embedded-graphics/embedded-graphics) crate, which to my surprise was started and maintained by the same guy behind [EtherCrab](https://github.com/ethercrab-rs/ethercrab), James Waples.
