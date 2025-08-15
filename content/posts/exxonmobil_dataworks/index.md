@@ -11,7 +11,7 @@ draft = false
   <br>
 </center>
 
-It's been a while since I updated my site. A lot has happened since then. I'm now in the first semester of my third year at UTP. This will be my last semester on campus before embarking on an internship, away from campus, and away from home. It's honestly been such a journey so far, and in this post I'm gonna share a part of that journey. One of the best memories I had made.
+It's been a while since I updated my site. A lot has happened since then. I'm now in the first semester of my third year at UTP. This will be my last semester on campus before embarking on an internship, away from campus, and away from home. It's honestly been such a journey so far, and in this post I'm gonna share a part of that journey. One of the best memories I have ever made.
 
 It all started almost a month ago, when an email appeared in my inbox. It was broadcast to students from various programs, calling for teams to participate in a competition I haven't heard of at the time. The ExxonMobil DataWorks Challenge. It was first held 2 years ago in 2022, and this year was the second ever.
 
@@ -62,7 +62,7 @@ At first I couldn't find anywhere online on how to code it up. ChatGPT returned 
 
 There were 2 mentoring sessions with ExxonMobil employees to improve our slides. Thanks to their advice we put out a solid presentation. Thanks to Zech's PowerPoint skills especially, the smooth animations looked cool and most importantly, sent the points home.
 
-We haven't named our approach yet, because to me adding a penalty term warranted nothing novel. So we just called it 'custom loss'. For the pitch, however, we gave it a Kadazandusun name. I called it "Kuminuru'", which means "[I] was squatting". Because that's what I was doing on the toilet when I came up with the idea.
+We hadn't named our approach yet, because to me adding a penalty term warranted nothing novel. So we just called it 'custom loss'. For the pitch, however, we gave it a Kadazandusun name. I called it "Kuminuru'", which means "[I] was squatting". Because that's what I was doing on the toilet when I came up with the idea.
 
 ## So, what's next?
 
@@ -97,4 +97,4 @@ It was quite an experience. Definitely one of the most unforgettable. The culmin
 <figure>A brief snippet of Eddry's part.</figure>
 </center>
 
-*Last updated 27 April 2025*
+*Last updated 15 August 2025*
