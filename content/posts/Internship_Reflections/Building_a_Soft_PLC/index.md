@@ -129,7 +129,7 @@ The Telegram bot just subscribes to a publisher inside the PLC control loop proc
 
 Fortunately it was all smooth sailing. The biggest hurdle was ensuring I didn't mess up any of the wiring to mains to feed the PULS power supply. All thanks to my trusty DMM. But honestly scanning through all the datasheets was tedious.
 
-The only initial issue I had was setting up passwordless SSH. Turns out the identity file was stored somewhere unexpected. That, end dealing with a +1 Modbus address offset in ModbusTools. Strangely, using `tokio-modbus` was easier than figuring out how to use the ModbusTools client.
+The only initial issue I had was setting up passwordless SSH. Turns out the identity file was stored somewhere unexpected. That, and dealing with a +1 Modbus address offset in [ModbusTools](https://github.com/serhmarch/ModbusTools). Strangely, using `tokio-modbus` was easier than figuring out how to use the ModbusTools client.
 
 The main fieldbus is EtherCAT, a real-time, Ethernet-based fieldbus protocol. It has to live on its own network. Though surprisingly, I did try it out on a regular unmanaged switch once with IP traffic buzzing through. It would occasionally timeout but still surprised that it worked. Anyways, don't do that on a non-TSN switch.
 
