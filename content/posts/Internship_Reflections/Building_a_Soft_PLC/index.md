@@ -91,13 +91,13 @@ I refused the offer on the grounds that I didn't want to pollute a codebase I'm 
 <table style="display:block; margin:auto; max-width: fit-content;">
   <tr>
     <td>
-      <img src="images/admiral_warn.jpg" height="500">
+      <img src="images/admiral_warn.jpg" width="500">
     </td>
     <td>
-      <img src="images/admiral.jpg" height="500">
+      <img src="images/admiral.jpg" width="500">
     </td>
     <td>
-      <img src="images/graph_view.jpg" height="500">
+      <img src="images/graph_view.jpg" width="500">
     </td>
   </tr>
 </table>
@@ -110,10 +110,10 @@ I made a simple Flutter app that just talks to the Supabase instance I had on Fr
 <table style="display:block; margin:auto; max-width: fit-content;">
   <tr>
     <td >
-      <img src="images/tg_notifs.jpg" height="500">
+      <img src="images/tg_notifs.jpg" width="300">
     </td>
     <td>
-      <img src="images/tgbot.jpg" height="500">
+      <img src="images/tgbot.jpg" width="300">
     </td>
   </tr>
 </table>
