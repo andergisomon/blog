@@ -61,7 +61,7 @@ The first two goals are crucial features in industrial automation.
 
 **Notes to self:**
 
-Maybe fork [gdbgui](https://www.gdbgui.com/)? It claims Rust support. `gdbui` uses [pygdbmi](https://cs01.github.io/pygdbmi/) to interface with `gdb`. Maybe just use that and roll our web UI from scratch?
+Maybe fork [gdbgui](https://www.gdbgui.com/)? It claims Rust support. `gdbui` uses [pygdbmi](https://cs01.github.io/pygdbmi/) to interface with `gdb`. Maybe just use that and roll our web UI from scratch? [NiceGUI](https://nicegui.io/) would be nice for that. Thanks to [jeffective](https://github.com/jeffective) for bringing it to my attention.
 
 ### Zig Firmware Rewrite for the Cytron IRIV IO
 The default firmware from Cytron relies on MicroPython. Will be interesting to see if there's gonna be any performance improvements with rewriting the whole stack in Zig + C.

@@ -64,7 +64,9 @@ Everything is a user-space process on Linux with the PREEMPT_RT patches applied.
 
 Since the PLC and other glueware are all software, it can live in an industrial PC, satisfying requirement [**6.**](#a-plc-is-anything-that-satisfies-the-following). I didn't satisfy **4.** and **5.** due to time constraints, but that's something I'll be fixing [soon!]({{< ref "posts/my_projects/index.md#planned-projects" >}})
 
-The figure above is motivated by my desire to explore as many technologies I could. There's nothing that prevents me from implementing the Telegram bot in Go or Java, but I really wanted to learn Zig, so I decided to write that part in it.
+The figure above is motivated by my desire to explore as many technologies I could. Nothing prevented me from implementing the Telegram bot in Go or Java, but I really wanted to learn Zig, so I decided to write that part in it.
+
+Repo of the core PLC runtime and glueware available [here](https://github.com/andergisomon/Gipop).
 
 ### Slight tangent
 
@@ -101,7 +103,7 @@ I refused the offer on the grounds that I don't want to pollute a codebase I'm u
 </table>
 <!-- Insert all the mantadsodu pics here -->
 
-I made a simple Flutter app that just talks to the Supabase instance I had on Free tier. None of that 2-variables-on-free-plan Arduino Cloud crap. I could add as many tables as I want with as many columns and rows my heart desired. I humbly say that the UI turned out looking pretty nice.
+I made a simple Flutter app that just talks to the Supabase instance I had on Free tier. None of that 2-variables-on-free-plan Arduino Cloud crap. I could add as many tables as I want with as many columns and rows my heart desired. I humbly say that the UI turned out looking pretty nice. Repo available [here](https://github.com/andergisomon/mantadsodu).
 
 ## Telegram bot
 
@@ -117,7 +119,7 @@ I made a simple Flutter app that just talks to the Supabase instance I had on Fr
 </table>
 <!-- Insert the telegram bot pics here -->
 
-The Telegram bot just subscribes to a publisher inside the PLC control loop process via IPC (using iceoryx2). I used [zigtgshka](https://github.com/Nyarum/zigtgshka) to interface with the Telegram bot API and the iceoryx2 C FFI. Repo available [here](https://github.com/andergisomon/mantadsodu). Since Zig has no syntactic async, I just assigned a separate thread for the IPC worker and the Telegram bot.
+The Telegram bot just subscribes to a publisher inside the PLC control loop process via IPC (using iceoryx2). I used [zigtgshka](https://github.com/Nyarum/zigtgshka) to interface with the Telegram bot API and the iceoryx2 C FFI. Repo available [here](https://github.com/andergisomon/sunsuyon). Since Zig has no syntactic async, I just assigned a separate thread for the IPC worker and the Telegram bot.
 
 ## Wiring it together
 
