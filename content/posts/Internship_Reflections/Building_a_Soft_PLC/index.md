@@ -84,7 +84,7 @@ if sms.len() as u8 != num_indices {
 }
 {{< /highlight >}}
 
-I refused the offer on the grounds that I don't want to pollute a codebase I'm unfamiliar with. James' [classy way](https://github.com/ethercrab-rs/ethercrab/commit/33f53d4f6f188647cea2390e8f69bd9f7bce743c) was to use `zip()` on two iterable types that were already in scope. It returns the shorter of the two, so we don't need to pop anything.
+I refused the offer on the grounds that I didn't want to pollute a codebase I'm unfamiliar with. James' [classy way](https://github.com/ethercrab-rs/ethercrab/commit/33f53d4f6f188647cea2390e8f69bd9f7bce743c) was to use `zip()` on two iterable types that were already in scope. It returns the shorter of the two, so we don't need to pop anything.
 
 ## Mobile app
 
@@ -119,7 +119,7 @@ I made a simple Flutter app that just talks to the Supabase instance I had on Fr
 </table>
 <!-- Insert the telegram bot pics here -->
 
-The Telegram bot just subscribes to a publisher inside the PLC control loop process via IPC (using iceoryx2). I used [zigtgshka](https://github.com/Nyarum/zigtgshka) to interface with the Telegram bot API and the iceoryx2 C FFI. Repo available [here](https://github.com/andergisomon/sunsuyon). Since Zig has no syntactic async, I just assigned a separate thread for the IPC worker and the Telegram bot.
+The Telegram bot just subscribes to a publisher inside the PLC control loop process via IPC (using iceoryx2). I used [zigtgshka](https://github.com/Nyarum/zigtgshka) to interface with the Telegram bot API and the iceoryx2 C FFI. Repo available [here](https://github.com/andergisomon/sunsuyon). Since Zig has no syntactic async, I just assigned a separate thread each for the IPC worker and the Telegram bot.
 
 ## Wiring it together
 
